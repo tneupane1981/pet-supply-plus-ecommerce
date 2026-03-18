@@ -1,14 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Supply Plus - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pet Supply Plus responsive ecommerce homepage with featured categories, promotions, and customer-focused shopping tools.">
+  <title>Pet Supply Plus | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Pet Supply Plus</h1>
-    <!-- Content Goes Here -->
-    <script src="js/main.js"></script>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <p class="eyebrow">Web Development Project · PSP-WEB-2026-01</p>
+        <a class="logo" href="index.html">Pet Supply Plus</a>
+        <p class="tagline">Healthy pets, happy homes, seamless shopping.</p>
+      </div>
+      <div class="header-support">
+        <p><strong>Customer Care:</strong> (800) 555-0199</p>
+        <p><a href="chat.html">Live Chat Support</a> · <a href="order-status.html">Track Order</a></p>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Primary Navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="product-dogs.html">Dog Essentials</a></li>
+          <li><a href="product-cats.html">Cat Favorites</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="order-status.html">Order Status</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="breadcrumb"><a href="index.html">Home</a> / Welcome</p>
+          <h1>Responsive shopping for every pet parent.</h1>
+          <p>Pet Supply Plus is a modern ecommerce experience designed for new and returning customers. Browse curated pet categories, view sample products, track orders, confirm purchases, and connect with support from any device.</p>
+          <div class="button-group">
+            <a class="button" href="shop.html">Start Shopping</a>
+            <a class="button button-secondary" href="about.html">View Project Overview</a>
+          </div>
+        </div>
+        <aside class="card">
+          <h2>Today’s Store Highlights</h2>
+          <ul class="feature-list">
+            <li>Free shipping on orders over $49</li>
+            <li>Same-day pickup mockup for local customers</li>
+            <li>Featured wellness bundles for dogs, cats, birds, and small pets</li>
+            <li>Self-service order tracking and confirmation tools</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Conceptual Site Overview</h2>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Business Goal</h3>
+            <p>Create a polished, front-facing ecommerce website that helps Pet Supply Plus attract shoppers, promote products, and support customers with clear self-service tools.</p>
+          </article>
+          <article class="card">
+            <h3>Target Audience</h3>
+            <p>Busy pet owners shopping on desktop, tablet, and smartphone who need easy navigation, product discovery, and quick access to service information.</p>
+          </article>
+          <article class="card">
+            <h3>UI Deliverables</h3>
+            <p>Responsive layouts, consistent navigation, working internal links, shopping UI, checkout prototype, order status display, and support chat interface.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section">
+      <div class="container">
+        <h2>Wireframe Mockup</h2>
+        <div class="wireframe">
+          <div class="wireframe-box">Header / Logo / Utility Links</div>
+          <div class="wireframe-box">Primary Navigation</div>
+          <div class="wireframe-layout">
+            <div class="wireframe-main">Hero Banner / Promotional Message / Featured CTA</div>
+            <div class="wireframe-side">Quick Tools<br>Chat<br>Order Status<br>Pickup Info</div>
+          </div>
+          <div class="wireframe-grid">
+            <div class="wireframe-box">Category Card</div>
+            <div class="wireframe-box">Category Card</div>
+            <div class="wireframe-box">Category Card</div>
+          </div>
+          <div class="wireframe-box">Footer / Secondary Navigation / Contact / Copyright</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured Categories</h2>
+        <div class="grid grid-4">
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=600&q=80" alt="Dog with colorful toy lying on a rug">
+            <h3>Dog Essentials</h3>
+            <p>Food, treats, leashes, beds, and wellness supplies.</p>
+            <a href="product-dogs.html">Explore dog products</a>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=600&q=80" alt="Cat sitting near a sunny window">
+            <h3>Cat Favorites</h3>
+            <p>Toys, litter, carriers, and scratch-friendly furniture.</p>
+            <a href="product-cats.html">Explore cat products</a>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=600&q=80" alt="Colorful bird perched on a branch">
+            <h3>Bird Care</h3>
+            <p>Seed blends, habitats, enrichment, and treats.</p>
+            <a href="categories.html">Browse bird supplies</a>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?auto=format&fit=crop&w=600&q=80" alt="Small pet peeking out of soft bedding">
+            <h3>Small Pets</h3>
+            <p>Habitats, chews, bedding, and travel accessories.</p>
+            <a href="categories.html">Browse small pet supplies</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section">
+      <div class="container">
+        <h2>Why this website supports marketing</h2>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Promotional Landing Experience</h3>
+            <p>Hero messaging, featured collections, and quick calls to action turn the home page into a campaign-ready destination for seasonal promotions.</p>
+          </article>
+          <article class="card">
+            <h3>Conversion-Focused Shopping Path</h3>
+            <p>Product categories, sample detail pages, shopping cart, and checkout screens create a clear customer journey from browsing to order confirmation.</p>
+          </article>
+          <article class="card">
+            <h3>Retention and Service Features</h3>
+            <p>Order tracking, live chat mockup, FAQ, and contact pages improve the experience for existing customers and reduce friction after purchase.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Pet Supply Plus</h2>
+        <p>Responsive ecommerce UI prototype prepared for Angela Roberts.</p>
+        <p>Request Date: January 30, 2026</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="cart.html">Shopping Cart</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="order-confirmation.html">Order Confirmation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Customer Support</h3>
+        <ul class="footer-links">
+          <li><a href="chat.html">Customer Service Chat</a></li>
+          <li><a href="order-status.html">Self-Service Order Status</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-meta">
+      <p>© 2026 Pet Supply Plus. Last Updated: March 18, 2026. Contact: <a href="mailto:aroberts@petsupplyplus.com">aroberts@petsupplyplus.com</a></p>
+    </div>
+  </footer>
 </body>
 </html>
