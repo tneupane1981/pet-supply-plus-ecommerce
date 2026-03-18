@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Your Shopping Cart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Example Cart Item -->
+            <tr>
+                <td><img src="image-url.jpg" alt="Product Image" style="width:50px;"></td>
+                <td>Product Name</td>
+                <td>$29.99</td>
+                <td>
+                    <input type="number" value="1" min="1" style="width:50px;">
+                </td>
+                <td><button>Remove</button></td>
+            </tr>
+            <!-- Additional cart items to be inserted here -->
+        </tbody>
+    </table>
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+        <p>Subtotal: $29.99</p>
+        <p>Shipping: $5.00</p>
+        <p>Tax: $2.00</p>
+        <h3>Total: $36.99</h3>
+    </div>
+    <div class="promo-code">
+        <input type="text" placeholder="Enter promo code">
+        <button>Apply</button>
+    </div>
+    <button class="checkout">Proceed to Checkout</button>
+</body>
+</html>
