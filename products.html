@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li>Products</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Filter Products</h2>
+            <form>
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="all">All</option>
+                    <option value="food">Food</option>
+                    <option value="toys">Toys</option>
+                </select>
+                <label for="price">Price Range</label>
+                <input type="range" id="price" name="price" min="0" max="100">
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+        <main>
+            <div class="sort-options">
+                <label for="sort">Sort by:</label>
+                <select id="sort" name="sort">
+                    <option value="default">Default</option>
+                    <option value="price">Price</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+            <div class="product-grid">
+                <!-- Product Cards -->
+                <div class="product-card">
+                    <img src="path_to_image1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$10.00</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$12.00</p>
+                    <p>⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$15.00</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image4.jpg" alt="Product 4">
+                    <h3>Product 4</h3>
+                    <p>$20.00</p>
+                    <p>⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image5.jpg" alt="Product 5">
+                    <h3>Product 5</h3>
+                    <p>$8.00</p>
+                    <p>⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image6.jpg" alt="Product 6">
+                    <h3>Product 6</h3>
+                    <p>$30.00</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image7.jpg" alt="Product 7">
+                    <h3>Product 7</h3>
+                    <p>$25.00</p>
+                    <p>⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="path_to_image8.jpg" alt="Product 8">
+                    <h3>Product 8</h3>
+                    <p>$35.00</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="pagination">
+                <button>Prev</button>
+                <button>Next</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
