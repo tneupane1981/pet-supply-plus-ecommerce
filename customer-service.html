@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Customer Service</h1>
+    </header>
+    <main>
+        <section id="live-chat">
+            <h2>Live Chat</h2>
+            <div class="chat-interface">
+                <div class="messages">
+                    <p><strong>Agent:</strong> Hello! How can I assist you today?</p>
+                    <p><strong>Customer:</strong> I'd like to know about my order status.</p>
+                </div>
+                <textarea placeholder="Type your message..."></textarea>
+                <button>Send</button>
+            </div>
+        </section>
+        <section id="order-tracking">
+            <h2>Order Tracking</h2>
+            <form>
+                <label for="orderId">Enter your Order ID:</label>
+                <input type="text" id="orderId" name="orderId" required>
+                <button type="submit">Track Order</button>
+            </form>
+            <div class="status-timeline">
+                <h3>Status Timeline</h3>
+                <p><strong>Order Placed:</strong> 2026-03-17</p>
+                <p><strong>Order Shipped:</strong> 2026-03-18</p>
+                <p><strong>Expected Delivery:</strong> 2026-03-20</p>
+            </div>
+        </section>
+        <section id="support-options">
+            <h2>Support Options</h2>
+            <div class="support-cards">
+                <div class="support-card">
+                    <h3>Phone Support</h3>
+                    <p>Call us at: 1-800-555-0199</p>
+                </div>
+                <div class="support-card">
+                    <h3>Email Support</h3>
+                    <p>Email us at: support@petsupplyplus.com</p>
+                </div>
+                <div class="support-card">
+                    <h3>Live Chat</h3>
+                    <p>Chat with us online!</p>
+                </div>
+            </div>
+        </section>
+        <section id="quick-help-links">
+            <h2>Quick Help Links</h2>
+            <ul>
+                <li><a href="#">Shipping Information</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pet Supply Plus. All rights reserved.</p>
+    </footer>
+</body>
+</html>
